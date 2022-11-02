@@ -91,23 +91,24 @@ header {
 main {
     display: flex;
     flex-wrap: nowrap;
-    /*width: 100%;*/
+    width: 100%;
     height: auto;
 }
 
-@media (min-width: 400px){
+@media (max-width: 600px){
     main{
-        width: 100%;
+        width: 50%;
+        flex-wrap: wrap;
     }
 }
-
-@media (max-width: 400px){
+/*
+@media (max-width: 600px){
     main{
         width: 25%;
         flex-wrap: wrap;
     }
 }
-
+*/
 
 section {
     margin: 10px;
