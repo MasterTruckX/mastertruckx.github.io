@@ -34,6 +34,7 @@ h3 {
     font-family: Helvetica, sans-serif;
     font-size: 25px;
     color: azure;
+    
 }
 
 h4 {
@@ -50,12 +51,10 @@ body{
 }
 
 main {
-    background-image: url(Images/bg.jpg);
-    background: #1F1C2C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    margin: 0;
+    background-image: url('../Images/bg.jpg');
 }
+
 
 header {
     background-color: #333;
@@ -86,12 +85,10 @@ header {
   }
 
 section {
-    margin: 10px;
     font-size: larger;
 }
 
 .center_content_left {
-    border:#ddc solid 8px;
     align-items: center;
 }
 
@@ -100,17 +97,18 @@ section {
 }
 
 .center_content_right {
-    margin: 10px 5px 10px 10px;
+    margin: 0px 5px 10px 10px;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border:#ddd solid 8px
 }
 
 .center_content_right h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .pp {
@@ -125,7 +123,6 @@ section {
 }
 .center {
     text-align: justify;
-    margin: 20px;
     color: antiquewhite;
 }
 
@@ -155,11 +152,7 @@ section {
     padding: 10px;
 }
 
-.at {
-    margin: 10px;
-    padding: 10px;
-    align-self: center;
-}
+
 .icon {
     width: 30px;
     height: 30px;
