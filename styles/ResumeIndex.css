@@ -1,7 +1,7 @@
 *, html {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    /*box-sizing: content-box;*/
 }
 
 @font-face {
@@ -45,7 +45,6 @@ h4 {
 
 body{
     margin: 0;
-    
     font-family: sans-serif;
     position: relative;
 }
@@ -97,10 +96,11 @@ section {
 }
 
 .center_content_right {
-    margin: 0px 5px 10px 10px;
+    /*margin: 0px 5px 10px 10px;*/
     align-items: center;
     justify-content: center;
     padding: 10px;
+    overflow: hidden;
 }
 
 .center_content_right h4 {
@@ -135,6 +135,8 @@ section {
     width: 100%;
     height: auto;
 }
+
+
 .carrusel h3 {
     display: flex;
     align-items: center;
@@ -150,8 +152,26 @@ section {
 .aa {
     margin: 10px;
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
+#card {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardlan {
+    background-color: #333;
+    border: rgb(255, 70, 140) solid 5px;
+}
+#carditem {
+    background-color: #333;
+    border: rgb(255, 70, 140) solid 1px;
+}
 
 .icon {
     width: 30px;
