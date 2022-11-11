@@ -96,7 +96,6 @@ section {
 }
 
 .center_content_right {
-    /*margin: 0px 5px 10px 10px;*/
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -191,6 +190,5 @@ footer {
     color: rgb(255, 70, 140);
     align-items: center;
     justify-content: center;
-    /*margin-top: auto;*/
     padding: 1em;
 }
